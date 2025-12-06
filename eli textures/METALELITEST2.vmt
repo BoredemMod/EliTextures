@@ -1,5 +1,20 @@
 "VertexlitGeneric"
 {
- "$basetexture" "eli textures/METALELITEST2"
+ 	"$basetexture" "eli textures/METALELITEST2"
+	"$bumpmap"					"models/apocmodels/SonicGenerations/S4E2MetalSonic/chr_msonic_hand_nrm"
+	"$envmap"					"env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint"				"[0.3 0.3 0.75]"
 
+	"$phong"					"1"
+	"$phongalbedotint"			"1"
+	"$phongexponenttexture"		"models/apocmodels/SonicGenerations/exponent"
+	"$phongexponent"			"25"
+	"$phongboost"				"50"
+	"$phongfresnelranges"		"[.4 2 20]"
+
+	"$rimlight"					"1"
+	"$rimlightexponent"			"4"
+	"$rimlightboost"			"15"
 }
+

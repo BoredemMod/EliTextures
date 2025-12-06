@@ -1,4 +1,20 @@
 "VertexlitGeneric"
 {
 	"$basetexture" "eli textures/CLASSICELISHOE"
+	"$bumpmap"					"models/apocmodels/SonicGenerations/ClassicSonic/chr_classic_Sonic_shoe_NRM_HD"
+	"$envmap"					"env_cubemap"
+	"$normalmapalphaenvmapmask"	"1"
+	"$envmaptint"				"[0.5 0.1 0.1]"
+
+	"$phong"					"1"
+	"$PhongAlbedoTint"			"1"
+	"$phongexponenttexture"		"models/apocmodels/SonicGenerations/exponent"
+	"$phongexponent"			"21"
+	"$phongboost"				"18"	
+	"$phongfresnelranges"		"[.4 2 20]"
+
+	"$rimlight"					"1"
+	"$rimlightexponent"			"4"
+	"$rimlightboost"			"2"
 }
+

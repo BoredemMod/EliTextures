@@ -1,5 +1,23 @@
 "VertexlitGeneric"
 {
 	"$basetexture" "eli textures/SuperEli"
-	
+	"$bumpmap"        "models/apocmodels/SonicGenerations/ModernSonic/chr_supersonic_body01_NRM_HD"
+	"$nocull"         "1"
+	"$selfillum"      "1"
+	"$selfIllumFresnel" "1"
+	"$selfIllumFresnelMinMaxExp" "[.1 1 8]"
+
+	"$phong" "1"
+	"$PhongAlbedoTint"	"1"
+	"$phongexponenttexture"	"models/apocmodels/SonicGenerations/exponent"
+	"$phongexponent" "21"
+	"$phongboost" "12"	
+//	"$lightwarptexture" "models/apocmodels/SonicGenerations/lightwarp"
+	"$phongfresnelranges"	"[.4 2 20]"
+
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+//	"$$rimexponent"	"50"
+	"$rimlightboost" "35"										// Boost for ambient cube component of rim lighting
 }
+
