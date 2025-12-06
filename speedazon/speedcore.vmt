@@ -1,5 +1,16 @@
 "VertexlitGeneric"
 {
- "$basetexture" "speedazon/speedcore"
+ 	"$basetexture" "speedazon/speedcore"
+	$basetexture "models\npcs\personality_sphere_ragdoll\personality_sphere_clean"
+	$phong 1
+	$phongboost 1
+	$halflambert 0
+	$phongDisableHalfLambert 1
+	$phongexponent 12
+	$phongfresnelranges "[.6 1 2]"
+	$basemapalphaphongmask 1
 
+	$rimlightexponent "0.2"
+	$rimlightboost 3
+	$phongalbedotint 1
 }
